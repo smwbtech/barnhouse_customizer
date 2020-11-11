@@ -40,6 +40,12 @@
 		walls: {
 			color: 'default'
 		},
+		desk: {
+			color: 'default'
+		},
+		brus: {
+			color: 'default'
+		},
 		roof: {
 			color: 'default'
 		},

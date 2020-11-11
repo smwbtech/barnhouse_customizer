@@ -11,65 +11,211 @@ export const controlls = [
 		title: 'стены',
 		colors: [
 			{
-				name: 'ral1001',
-				hex: '#d8b979'
+				name: 'brown',
+				hex: '#906643'
 			},
 			{
-				name: 'white',
-				hex: '#fff',
+				name: 'snow',
+				hex: '#e4e4e4',
 				color: '#000'
 			},
 			{
-				name: 't3012',
-				hex: '#957d5c'
+				name: 'sandy',
+				hex: '#dfccaf',
+				color: '#000'
 			},
 			{
-				name: 't3019',
-				hex: '#785849'
+				name: 'cream',
+				hex: '#ecdeb0',
+				color: '#000'
 			},
 			{
-				name: 't3027',
-				hex: '#5d6c46'
+				name: 'caramel',
+				hex: '#deb969',
+				color: '#000'
 			},
 			{
-				name: 't3037',
-				hex: '#999987'
+				name: 'oliver',
+				hex: '#80886e'
 			},
 			{
-				name: 't3041',
-				hex: '#bbab81'
+				name: 'mystic',
+				hex: '#97c5de'
 			},
 			{
-				name: 't3031',
-				hex: '#9da38f'
+				name: 'lazuro',
+				hex: '#7facda'
 			},
 			{
-				name: '2688',
-				hex: '#8e9181'
+				name: 'terrac',
+				hex: '#e1a44d'
 			},
 			{
-				name: '2684',
-				hex: '#789d90'
+				name: 'bordo',
+				hex: '#a94445'
 			},
 			{
-				name: '2680',
-				hex: '#85a075'
+				name: 'tinto',
+				hex: '#7b2c25'
 			},
 			{
-				name: '2669',
-				hex: '#aa786d'
+				name: 'mokko',
+				hex: '#9f6546'
 			},
 			{
-				name: '2672',
-				hex: '#d39f67'
+				name: 'silver',
+				hex: '#d2d2d2',
+				color: '#000'
 			},
 			{
-				name: '2665',
-				hex: '#655539'
+				name: 'dark',
+				hex: '#5b5b5b'
 			},
 			{
-				name: '2661',
-				hex: '#dccdae'
+				name: 'grey',
+				hex: '#9b9b9b'
+			}
+		]
+	},
+	{
+		name: 'desk',
+		title: 'доска',
+		colors: [
+			{
+				name: 'brown',
+				hex: '#906643'
+			},
+			{
+				name: 'snow',
+				hex: '#e4e4e4',
+				color: '#000'
+			},
+			{
+				name: 'sandy',
+				hex: '#dfccaf',
+				color: '#000'
+			},
+			{
+				name: 'cream',
+				hex: '#ecdeb0',
+				color: '#000'
+			},
+			{
+				name: 'caramel',
+				hex: '#deb969',
+				color: '#000'
+			},
+			{
+				name: 'oliver',
+				hex: '#80886e'
+			},
+			{
+				name: 'mystic',
+				hex: '#97c5de'
+			},
+			{
+				name: 'lazuro',
+				hex: '#7facda'
+			},
+			{
+				name: 'terrac',
+				hex: '#e1a44d'
+			},
+			{
+				name: 'bordo',
+				hex: '#a94445'
+			},
+			{
+				name: 'tinto',
+				hex: '#7b2c25'
+			},
+			{
+				name: 'mokko',
+				hex: '#9f6546'
+			},
+			{
+				name: 'silver',
+				hex: '#d2d2d2',
+				color: '#000'
+			},
+			{
+				name: 'dark',
+				hex: '#5b5b5b'
+			},
+			{
+				name: 'grey',
+				hex: '#9b9b9b'
+			}
+		]
+	},
+	{
+		name: 'brus',
+		title: 'брус',
+		colors: [
+			{
+				name: 'brown',
+				hex: '#906643'
+			},
+			{
+				name: 'snow',
+				hex: '#e4e4e4',
+				color: '#000'
+			},
+			{
+				name: 'sandy',
+				hex: '#dfccaf',
+				color: '#000'
+			},
+			{
+				name: 'cream',
+				hex: '#ecdeb0',
+				color: '#000'
+			},
+			{
+				name: 'caramel',
+				hex: '#deb969',
+				color: '#000'
+			},
+			{
+				name: 'oliver',
+				hex: '#80886e'
+			},
+			{
+				name: 'mystic',
+				hex: '#97c5de'
+			},
+			{
+				name: 'lazuro',
+				hex: '#7facda'
+			},
+			{
+				name: 'terrac',
+				hex: '#e1a44d'
+			},
+			{
+				name: 'bordo',
+				hex: '#a94445'
+			},
+			{
+				name: 'tinto',
+				hex: '#7b2c25'
+			},
+			{
+				name: 'mokko',
+				hex: '#9f6546'
+			},
+			{
+				name: 'silver',
+				hex: '#d2d2d2',
+				color: '#000'
+			},
+			{
+				name: 'dark',
+				hex: '#5b5b5b'
+			},
+			{
+				name: 'grey',
+				hex: '#9b9b9b'
 			}
 		]
 	},
@@ -93,38 +239,14 @@ export const controlls = [
 				name: 'ral3005',
 				hex: '#904f56'
 			},
-			// {
-			// 	name: 'ral7024',
-			// 	hex: '#73868b'
-			// },
 			{
-				name: 'ral6005',
-				hex: '#5d8470'
+				name: 'rr11',
+				hex: '#6c9381'
 			},
 			{
-				name: 'ral5002',
-				hex: '#7f90c2'
+				name: 'rr32',
+				hex: '#6d7076'
 			},
-			{
-				name: 'ral3011',
-				hex: '#b57a7f'
-			},
-			{
-				name: 'ral3009',
-				hex: '#ba9a9b'
-			},
-			{
-				name: 'ral3003',
-				hex: '#9f3c42'
-			},
-			{
-				name: 'ral2004',
-				hex: '#a84125'
-			},
-			{
-				name: 'ral1014',
-				hex: '#d6c19b'
-			}
 		]
 	},
 	{
@@ -132,8 +254,7 @@ export const controlls = [
 		title: 'окна',
 		colors: [
 			{
-				name: 'default',
-				title: 'white',
+				name: 'white',
 				color: '#000',
 				hex: '#fff'
 			},
@@ -149,14 +270,17 @@ export const controlls = [
 		title: 'доборы',
 		colors: [
 			{
-				name: 'default',
-				title: 'white',
+				name: 'white',
 				color: '#000',
 				hex: '#fff'
 			},
 			{
 				name: 'brown',
 				hex: '#41342c'
+			},
+			{
+				name: 'grey',
+				hex: '#9b9b9b'
 			}
 		]
 	},
@@ -165,44 +289,29 @@ export const controlls = [
 		title: 'сливы',
 		colors: [
 			{
-				name: 'default',
-				hex: '#756554'
-			},
-			{
-				name: 'choco',
-				hex: '#1c0a0b'
-			},
-			{
-				name: 'brown',
-				hex: '#261810'
+				name: 'grey',
+				hex: '#333333'
 			},
 			{
 				name: 'red',
-				hex: '#92423e'
+				hex: '#97433c'
 			},
 			{
-				name: 'tile',
-				hex: '#9e5f3b'
+				name: 'brown',
+				hex: '#34231e'
 			},
 			{
-				name: 'black',
-				hex: '#0c0c0c'
-			},
-			{
-				name: 'grey',
-				hex: '#656565'
-			},
-			{
-				name: 'dgray',
-				hex: '#4f4f4f'
-			},
-			{
-				name: 'metallic',
-				hex: '#8e8e8e'
+				name: 'choco',
+				hex: '#422329'
 			},
 			{
 				name: 'white',
 				hex: '#fff',
+				color: '#000'
+			},
+			{
+				name: 'metallic',
+				hex: '#bcbcbc',
 				color: '#000'
 			}
 		]
