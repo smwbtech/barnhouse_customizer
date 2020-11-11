@@ -224,16 +224,16 @@ export const controlls = [
 		title: 'крыша',
 		colors: [
 			{
+				name: 'ral8017',
+				hex: '#593f45'
+			},
+			{
 				name: 'ral7024',
 				hex: '#999da8'
 			},
 			{
 				name: 'ral5005',
 				hex: '#297dad'
-			},
-			{
-				name: 'ral8017',
-				hex: '#593f45'
 			},
 			{
 				name: 'ral3005',
@@ -254,15 +254,15 @@ export const controlls = [
 		title: 'окна',
 		colors: [
 			{
+				name: 'brown',
+				title: 'brown',
+				hex: '#41342c'
+			},
+			{
 				name: 'white',
 				color: '#000',
 				hex: '#fff'
 			},
-			{
-				name: 'brown',
-				title: 'brown',
-				hex: '#41342c'
-			}
 		]
 	},
 	{
@@ -270,13 +270,13 @@ export const controlls = [
 		title: 'доборы',
 		colors: [
 			{
+				name: 'brown',
+				hex: '#41342c'
+			},
+			{
 				name: 'white',
 				color: '#000',
 				hex: '#fff'
-			},
-			{
-				name: 'brown',
-				hex: '#41342c'
 			},
 			{
 				name: 'grey',
@@ -289,12 +289,12 @@ export const controlls = [
 		title: 'сливы',
 		colors: [
 			{
-				name: 'grey',
-				hex: '#333333'
-			},
-			{
 				name: 'red',
 				hex: '#97433c'
+			},
+			{
+				name: 'grey',
+				hex: '#333333'
 			},
 			{
 				name: 'brown',
