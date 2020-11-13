@@ -78,6 +78,77 @@ export const controlls = [
 		]
 	},
 	{
+		name: 'stairs',
+		title: 'лестница',
+		colors: [
+			{
+				name: 'brown',
+				hex: '#906643'
+			},
+			{
+				name: 'snow',
+				hex: '#e4e4e4',
+				color: '#000'
+			},
+			{
+				name: 'sandy',
+				hex: '#dfccaf',
+				color: '#000'
+			},
+			{
+				name: 'cream',
+				hex: '#ecdeb0',
+				color: '#000'
+			},
+			{
+				name: 'caramel',
+				hex: '#deb969',
+				color: '#000'
+			},
+			{
+				name: 'oliver',
+				hex: '#80886e'
+			},
+			{
+				name: 'mystic',
+				hex: '#97c5de'
+			},
+			{
+				name: 'lazuro',
+				hex: '#7facda'
+			},
+			{
+				name: 'terrac',
+				hex: '#e1a44d'
+			},
+			{
+				name: 'bordo',
+				hex: '#a94445'
+			},
+			{
+				name: 'tinto',
+				hex: '#7b2c25'
+			},
+			{
+				name: 'mokko',
+				hex: '#9f6546'
+			},
+			{
+				name: 'silver',
+				hex: '#d2d2d2',
+				color: '#000'
+			},
+			{
+				name: 'dark',
+				hex: '#5b5b5b'
+			},
+			{
+				name: 'grey',
+				hex: '#9b9b9b'
+			}
+		]
+	},
+	{
 		name: 'desk',
 		title: 'доска',
 		colors: [
@@ -238,6 +309,35 @@ export const controlls = [
 			{
 				name: 'ral3005',
 				hex: '#904f56'
+			},
+			{
+				name: 'ral5002',
+				hex: '#737fae'
+			},
+			{
+				name: 'ral3011',
+				hex: '#966160'
+			},
+			{
+				name: 'ral3009',
+				hex: '#9f7c7c'
+			},
+			{
+				name: 'ral3003',
+				hex: '#b46b6e'
+			},
+			{
+				name: 'ral2004',
+				hex: '#d88d71'
+			},
+			{
+				name: 'ral1014',
+				hex: '#d3c6b2',
+				color: '#000'
+			},
+			{
+				name: 'ral6005',
+				hex: '#6a8f7c',
 			},
 			{
 				name: 'rr11',
