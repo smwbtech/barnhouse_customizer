@@ -46,6 +46,9 @@
 		brus: {
 			color: 'default'
 		},
+		stairs: {
+			color: 'default'
+		},
 		roof: {
 			color: 'default'
 		},
