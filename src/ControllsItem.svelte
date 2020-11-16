@@ -82,7 +82,7 @@
 	export let submenuIndex;
 
 	const dispatch = createEventDispatcher();
-	const src = `img/${name}_preview.jpg`;
+	const src = `wp-content/themes/scandi/barnhouse/${name}_preview.jpg`;
 	const alt = `выбор цвета ${name}`;
 
 	let isSubmenuOpen = false;

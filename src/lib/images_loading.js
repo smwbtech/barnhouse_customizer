@@ -19,7 +19,7 @@ function intersectionHandler(entries, observer, controlls) {
 				colors.forEach((color) => {
 					if (color.name !== 'default') {
 						const img = new Image();
-						img.src = `/img/${name}/${name}_${color.name}.png`;
+						img.src = `/wp-content/themes/scandi/barnhouse/${name}/${name}_${color.name}.png`;
 						img.addEventListener(
 							'load',
 							() => {

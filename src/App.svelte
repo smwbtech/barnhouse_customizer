@@ -65,14 +65,14 @@
 
 	function changeItemHandler(e) {
 		const { name, color } = e.detail;
-		const imageSrc = `img/${name}/${name}_${color}.png`;
+		const imageSrc = `wp-content/themes/scandi/barnhouse/${name}/${name}_${color}.png`;
 		customization[name].color = color;
 		drawImage({ canvas, imageSrc });
 	}
 
 	onMount(() => {
 		canvas = document.getElementById('house_customizer_canvas');
-		drawImage({ canvas, imageSrc: '/img/house.jpg', setSize: true });
+		drawImage({ canvas, imageSrc: '/wp-content/themes/scandi/barnhouse/house.jpg', setSize: true });
 		loadImagesOnItersection('#house_customizer', controlls);
 	});
 </script>
