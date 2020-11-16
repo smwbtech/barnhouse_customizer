@@ -65,7 +65,7 @@
 
 	function changeItemHandler(e) {
 		const { name, color } = e.detail;
-		const imageSrc = `wp-content/themes/scandi/barnhouse/${name}/${name}_${color}.png`;
+		const imageSrc = `/wp-content/themes/scandi/barnhouse/${name}/${name}_${color}.png`;
 		customization[name].color = color;
 		drawImage({ canvas, imageSrc });
 	}
